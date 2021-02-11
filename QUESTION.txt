@@ -19,7 +19,7 @@ R2 64276
 
 5.1- Quantas variantes existem com impacto funcional (Annotation_Impact) do tipo HIGH, MODERATE, LOW ? Existe alguma variante em HIGH ? Qual é cromossomo, posição e a alteração ?
 
-HIGH		58
+HIGH		1 (58)
 MODERATE	2
 LOW			13
 
