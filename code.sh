@@ -10,7 +10,7 @@ samtools sort 510-7-BRCA.bam > 510-7-BRCA_sorted.bam
 
 /home/labbe-x/labbex/Programas/freebayes/bin/freebayes --target ../reference/BRCA.bed --bam 510-7-BRCA_sorted.bam --ploidy 2 --fasta-reference ../reference/hg19.fasta --vcf 510-7-BRCA.vcf
 
-samtools view 510-7-BRCA_sorted.bam "chr17:41197694-41197819" > chr17.bam
+bedtools coverage -a ../reference/chr7.bed -b 510-7-BRCA_sorted.bam
 
 samtools view -c -f 77 510-7-BRCA_sorted.bam
 
