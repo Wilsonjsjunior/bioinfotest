@@ -9,7 +9,7 @@ R2 64276
 
 3 - Quantos alinhamentos há na região chr17:41197694-41197819 ? 
 
-0
+2209
 
 4 - Quantos alinhamentos não conseguiram ser mapeados (unmapped alignments ?) 
 
